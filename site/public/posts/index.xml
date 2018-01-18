@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Mike Arbuzov</title>
+    <link>https://arbuzov.eu/posts/</link>
+    <description>Recent content in Posts on Mike Arbuzov</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 09 Jan 2018 23:07:28 +0200</lastBuildDate>
+    
+	<atom:link href="https://arbuzov.eu/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://arbuzov.eu/posts/about/</link>
+      <pubDate>Tue, 09 Jan 2018 23:07:28 +0200</pubDate>
+      
+      <guid>https://arbuzov.eu/posts/about/</guid>
+      <description>Mike Arbuzov *  Experienced Chief Technology Officer with a demonstrated history of delivering ground breaking solutions in the information technology and services industry. Strong IT professional skilled in E-commerce, User Experience, Security, Scalability and Data Analysis.
+Passionate and curious using couputers to empower human creativity and build practical working systems through iterative experimentation and let them grow to surpass capabilities of an individual at scale.
+First programming experience at the age of 9.</description>
+    </item>
+    
+  </channel>
+</rss>

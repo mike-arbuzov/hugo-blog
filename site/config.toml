@@ -1,9 +1,107 @@
-baseurl = "/"
+baseurl = "https://arbuzov.eu/"
 languageCode = "en-us"
-languageLang = "en"
-title = "My new Victor-Hugo site"
+title = "Mike Arbuzov"
+theme = "hugo-creative-theme"
+googleAnalytics = ""
 
-# RSS, categories and tags disabled for an easy start
-# See configuration options for more details: 
-# https://gohugo.io/getting-started/configuration/#toml-configuration
-disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
+
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "Mike Arbuzov - Pragmatic Architecture"
+	description = "Mike Arbuzov | Creative Solutions | Pragmatic Software Architecture | Cloud Scaling | Deep Learning | Big Data | Blockchain"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Mike Arbuzov"
+
+		[params.navigation.links]
+			about     = "About"
+			services  = "Services"
+			blog 	  = "Blog"
+			contact   = "Contact"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		txtcycle   = '["Creative", "Pragmatic", "Scalable", "Intelligent", "Magical"]'
+		slogan     = "Solutions"
+		subtitle   = '"Any sufficiently advanced technology is indistinguishable from magic" - Arthur C. Clarke'
+		buttonText = "Find out more"
+
+
+	# About section
+	[params.about]
+		headline    = "20+ years of the IT industry experience"
+		description = "We design, build and tune systems that scale and evolve. We follow the pragmatic approach and iterate fast to deliver value that delights the customer. We instrument and measure giving voice to data."
+		buttonText  = "Get started!"
+
+
+	# Service section
+	[params.services]
+		headline = "At your service"
+
+        [[params.services.list]]
+            icon = "fa-diamond"
+            title = "Architecture"
+            description = "From small proof of concept to large scale multi cloud delpoyments we bring experience and future insight to the table."
+
+        [[params.services.list]]
+			icon = "fa-paper-plane"
+			title = "Performance tuning"
+			description = "From app responsiveness to web site loading speed to micro services throughput we profile and improve the end-customer experience."
+
+        [[params.services.list]]
+            icon = "fa-heart"
+            title = "Cloud efficiency"
+            description = "We build public compute cloud systems at scale while reducing the total cost. We consider the overall picture with performance, fault-tolerance, security, compliance, maintainability and cost control."
+
+		[[params.services.list]]
+            icon = "fa-newspaper-o"
+            title = "Technology boost"
+            description = "We find the best tools for the job and solve comlpex challenges with fresh perspective and the power of latest technology. IoT, Big Data, Deep Learning, AI, Blockchain - we make it work for you where it fits best."
+
+    # Portfolio modals
+	#[params.portfolio.modal]
+    #    client = "Client"
+    #    date = "Date"
+    #    category = "Category"
+    #    buttonText = "Close"
+
+    # Aside section
+	#[params.aside]
+	#	headline = "Get the Creative Theme for Hugo"
+	#
+	#	[params.aside.button]
+	#		text = "Download now"
+	#		link = "//github.com/digitalcraftsman/hugo-creative-theme"
+
+	# Contact section
+	[params.contact]
+		headline = "Let's Get In Touch!"
+		description = "Ready to build the future? - let us know and we make it happen."
+		phone = "+372 55 17 762"
+		email = "mike.arbuzov@gmail.com"
+
+	# Google Maps section
+	# [params.location]
+	# 	latitude  = "34.007850"
+	# 	longitude = "-118.499305"
+	# 	maps_api_key = ""
