@@ -1,4 +1,4 @@
-baseurl = "https://arbuzov.eu/"
+baseurl = "/"
 languageCode = "en-us"
 title = "Mike Arbuzov"
 theme = "hugo-creative-theme"
